@@ -1,0 +1,38 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.rounded-5xl{
+    border-radius: 40px;
+}
+
+.primary{
+    color: rgb(89, 68, 219);
+}
+.btnp.active{
+  color:rgb(89, 68, 219);
+}
+
+
+  
+
+
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: rgb(183, 190, 81);
+  color: white;
+}

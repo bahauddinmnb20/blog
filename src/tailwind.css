@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* grupe class */
+
+.menu-list{
+    @apply px-5 py-3  text-base font-semibold text-gray-800;
+}
