@@ -6,4 +6,5 @@
 
 .menu-list{
     @apply px-5 py-3  text-base font-semibold text-gray-800;
+    @apply dark:text-white
 }

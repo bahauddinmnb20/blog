@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./dist/tailwind.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class=" bg-violet-50 px-4 xl:p-0">
+<body class=" bg-violet-50 px-4 xl:p-0 dark:bg-black">
  <header>
      <div class=" 2xl:container mx-auto grid grid-cols-12 items-center gap-x-2">
          <div class="logo col-span-2">
@@ -25,8 +25,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="btn col-span-2">
-            <a  href="#">Hear Us</a>
+        <div class=" col-span-2 ">
+            <a class="dark:text-white bg-indigo-700 px-6 py-3 rounded-xl border-x-8 border-amber-500  hover:border-white hover:border-x-8 transition-all  " href="#">Hear Us</a>
         </div>
      </div>
 
@@ -34,7 +34,7 @@
  <main>
    <section class="servece-hero py-20 md:py-32  ">
      <div class="2xl:container mx-auto  grid grid-flow-row justify-items-center gap-y-10  sm:grid-cols-3 md:gap-x-8 ">
-       <h2 class="text-center order-last sm:order-first sm:text-left sm:col-span-2 text-4xl lg:text-6xl leading-tight text-black font-bold ">All you wanted to know about working with designers and creating delightful product experiences</h2>
+       <h2 class="text-center dark:text-white order-last sm:order-first sm:text-left sm:col-span-2 text-4xl lg:text-6xl leading-tight text-black font-bold ">All you wanted to know about working with designers and creating delightful product experiences</h2>
         <div class="order-1 col-span-1 ">
             <img class="w-max md:w-full" src="imges/Group 27106.png" alt="">
         </div>
@@ -46,9 +46,9 @@
            <img class="w-full" src="imges/blog-2.png" alt="">
          </div>
          <div class="card-content lg:pr-8 p-7">
-           <h6 class="text-lg primary font-bold">Design Process</h6>
-           <h3 class="2xl:text-4xl text-3xl  my-3 text-black leading-normal font-extrabold ">Card UI Examples And Bess t Practices For Product Owners</h3>
-           <p class="text-xl text-gray-600 2xl:leading-relaxed font-normal">Now in 2022, more than 2.7 billion mobile app users in the world prefer Android apps. We follow the google design principles and the design thinking process to create seamless user experiences and aesthetic interfaces for mobile apps for the android platform. </br></br>
+           <h6 class="text-lg  dark:text-white primary font-bold">Design Process</h6>
+           <h3 class="2xl:text-4xl text-3xl  my-3  text-black  leading-normal font-extrabold ">Card UI Examples And Bess t Practices For Product Owners</h3>
+           <p class="text-xl text-gray-600  2xl:leading-relaxed font-normal">Now in 2022, more than 2.7 billion mobile app users in the world prefer Android apps. We follow the google design principles and the design thinking process to create seamless user experiences and aesthetic interfaces for mobile apps for the android platform. </br></br>
             We make android apps more relevant to users that users love to use and bring your business experience to the next level. 
             </p>
          </div>
@@ -57,12 +57,12 @@
    <section class="blogs 2xl:container mx-auto mb-32 ">
       <!-- Control buttons -->
       <div class="search-bar  flex flex-col items-center md:items-start lg:items-center md:flex-row gap-y-8 md:justify-between">
-     <div class="flex flex-col lg:flex-row" id="myBtnContainer">
-        <button class="btn active lg:px-6  px-4 py-3 bg-0 font-black text-black leading-normal text-3xl xl:text-5xl hover:bg-rose-400" onclick="filterSelection('all')"> All post</button>
-        <button class="btn  lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('cars')"> Design Process</button>
-        <button class="btn  lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('indrustry')"> indrustry</button>
-        <button class="btn  lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('business')"> Business</button>
-        <button class="btn  lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('technology')"> Technology</button>
+     <div class="flex flex-col lg:flex-row " id="myBtnContainer">
+        <button class="btn dark:text-white active lg:px-6  px-4 py-3 bg-0 font-black text-black leading-normal text-3xl  dark:p-6  xl:text-5xl hover:bg-rose-400" onclick="filterSelection('all')"> All post</button>
+        <button class="btn dark:text-white lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('cars')"> Design Process</button>
+        <button class="btn dark:text-white lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('indrustry')"> indrustry</button>
+        <button class="btn dark:text-white lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('business')"> Business</button>
+        <button class="btn dark:text-white lg:px-6  px-4 py-3 bg-0 font-semibold text-black leading-normal text-base hover:bg-rose-400" onclick="filterSelection('technology')"> Technology</button>
       </div>
         <div class="search relative">
 
@@ -74,50 +74,50 @@
  
 
       <div class="overflow-hidden   grid md:grid-cols-2 lg:grid-cols-3 gap-y-28 lg:gap-x-11 md:gap-x-11 md:gap-y-40 mt-24">
-        <div class="filterDiv col-span-1 cars">
+        <div class="filterDiv  dark:shadow-inner  dark:rounded-3xl     col-span-1  dark:shadow-white cars">
           <img class=" w-full" src="imges/post1.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">Compelling Design Takes More Than “Making It Like Stripe”</h4>
+          <h6 class="text-lg  dark:px-6  primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:px-6 dark:text-white  dark:text-whitetext-black font-semibold">Compelling Design Takes More Than “Making It Like Stripe”</h4>
         </div>
-        <div class="filterDiv col-span-1 colors business">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white  dark:rounded-3xl col-span-1 colors business">
           <img class="w-full" src="imges/post2.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">What Is Design Thinking and How It Hacks the Way to Innovation</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">What Is Design Thinking and How It Hacks the Way to Innovation</h4>
         </div>
-        <div class="filterDiv col-span-1 cars">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white  dark:rounded-3xl  col-span-1 cars">
           <img class="w-full" src="imges/post3.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">Healthcare UX: How Design Can Solve Biggest Challenges for Patients, Clinicians, and Institutions</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">Healthcare UX: How Design Can Solve Biggest Challenges for Patients, Clinicians, and Institutions</h4>
         </div>
-        <div class="filterDiv col-span-1 colors technology">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white dark:rounded-3xl   col-span-1 colors technology">
           <img class="w-full" src="imges/post4.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">Social Distancing and Beyond: How to Design a Smart Software Solution for Safety at Work</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">Social Distancing and Beyond: How to Design a Smart Software Solution for Safety at Work</h4>
         </div>
-        <div class="filterDiv col-span-1 indrustry">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white dark:rounded-3xl    col-span-1 indrustry">
           <img class="w-full" src="imges/post5.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">Time Tracking App Design: How to Make an App That Increases Productivity</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">Time Tracking App Design: How to Make an App That Increases Productivity</h4>
         </div>
-        <div class="filterDiv col-span-1 colors business">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white dark:rounded-3xl    col-span-1 colors business">
           <img class="w-full" src="imges/post6.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">A Snapshot of 4 Hurdles to Fintech UX Design</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">A Snapshot of 4 Hurdles to Fintech UX Design</h4>
         </div>
-        <div class="filterDiv col-span-1 cars">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white dark:rounded-3xl   col-span-1 cars">
           <img class="w-full" src="imges/post7.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">Compelling Design Takes More Than “Making It Like Stripe”</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">Compelling Design Takes More Than “Making It Like Stripe”</h4>
         </div>
-        <div class="filterDiv col-span-1 colors technology">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white dark:rounded-3xl   col-span-1 colors technology">
           <img class="w-full" src="imges/post8.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">What Is Design Thinking and How It Hacks the Way to Innovation</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">What Is Design Thinking and How It Hacks the Way to Innovation</h4>
         </div>
-        <div class="filterDiv col-span-1 colors">
+        <div class="filterDiv  dark:shadow-inner dark:shadow-white dark:rounded-3xl    col-span-1 colors">
           <img class="w-full" src="imges/post9.png" alt="">
-          <h6 class="text-lg primary font-bold mt-8 mb-2">Design Process</h6>
-          <h4 class="text-3xl text-black font-semibold">Healthcare UX: How Design Can Solve Biggest Challenges for Patients, Clinicians, and Institutions</h4>
+          <h6 class="text-lg  dark:px-6 primary font-bold mt-8 mb-2">Design Process</h6>
+          <h4 class="text-3xl  dark:p-6 dark:text-white  dark:text-whitetext-black font-semibold">Healthcare UX: How Design Can Solve Biggest Challenges for Patients, Clinicians, and Institutions</h4>
         </div>
       </div>
    </section>
