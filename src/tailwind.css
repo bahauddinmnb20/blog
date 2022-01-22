@@ -2,9 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components{
 /* grupe class */
 
 .menu-list{
     @apply px-5 py-3  text-base font-semibold text-gray-800;
     @apply dark:text-white
+}
+}
+/* larnig-tailwind */
+@layer base{
+    h1,
+    h2,
+    h3{
+        @apply text-black;
+    }
+}
+
+@layer utilities {
+    .primary{
+        color:#5944db;
+    }
+    .btn.active{
+        background-color:#5944db;
+        color:#fff;
+      }
+}
+
+@variants focus,hover,active{
+    .primary{
+        color:#5944db;
+    }
+    .primary-bg{
+        background:#5944db;
+    }
+}
+
+@responsive{
+    .primary{
+        color:#5944db;
+    }
+    .primary-bg{
+        background:#5944db;
+    }
+}
+
+@screen sm{
+   
+    .mobile{
+       background:red;
+    }
 }
